@@ -20,7 +20,6 @@ module.exports = function(sequelize, DataTypes){
         },
         Name: {
             type: DataTypes.STRING,
-
             allowNull: true,
             defaultValue:''
         }, 
