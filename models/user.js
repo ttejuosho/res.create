@@ -25,7 +25,6 @@ module.exports = function(sequelize, DataTypes){
         }, 
         Street: {
             type: DataTypes.STRING,
-
             allowNull: true,
             defaultValue:''
         },
