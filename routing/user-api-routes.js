@@ -59,4 +59,5 @@ module.exports = function(app) {
 });
 
 
-}//end of export
+}
+//end of export
