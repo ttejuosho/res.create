@@ -54,10 +54,10 @@ passport.use('local-signup', new LocalStrategy(
     {
       var userPassword = generateHash(password);
       var data =
-      { Email:email,
-      password:userPassword,
-      firstname: req.body.firstname,
-      lastname: req.body.lastname
+      { Email: email,
+        password: userPassword,
+        firstname: req.body.firstname,
+        lastname: req.body.lastname
       };
 
 
